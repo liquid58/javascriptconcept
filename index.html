@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>javascript</title>
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet"type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="aside1" style="float:left;">
+    <div class="switchcase">
+      <h2>print month who u want click down button:-</h2>
+    <button class="btn"type="button" name="button"onclick="myfunction1()">click here</button>
+    <button  id="btn1" type="button" name="button">PrintMonth</button>
+    </div>
+    <div class="switchcase">
+      <h2>for print day</h2>
+      <button class="btn" type="button" name="button"onclick="myfunction2()">click here</button>
+      <button  id="btn2" type="button" name="button">PrintDay</button>
+    </div>
+    <div class="whileloop">
+
+      <h2>While loop program.</h2>
+      <p>this program work as.(fno < s.no)</p>
+      <button class="btn"type="button" name="button"onclick="myfunction3()">click here</button>
+     </div>
+
+     <div class="function with return">
+       <h1>function with return</h1>
+       <p>this program change meter from kilometer</p>
+       <p>click button for run this program</p>
+       <p id="p"></p>
+       <button class="btn"type="button" name="button"onclick="myfunction4()"> click here</button>
+     </div>
+   </div>
+   <!-- NOTE: first slide is closed hrere -->
+
+
+   <div class="aside2">
+     <div class="function-for-calculator">
+       <form>
+         <p>Enter first no.  <input id="fno"type="text"autocomplete="off" name="" value=""></p>
+
+         <p>enter second no. <input id="sno" type="text"autocomplete="off" name="" value=""></p>
+
+         <button class="fbutton"type="button" name="button" onclick="mul()">Multiply</button>
+         <button class="fbutton"type="button" name="button"onclick="add()">Addision</button>
+         <button class="fbutton"type="button"
+         name="button"onclick="sub()">Subtraction</button>
+         <button class="fbutton"type="button" name="button"onclick="div()">Division</button>
+         <button type="reset" name="button">Reset</button>
+         <p>your answer is:-</p>
+         <h2 style="color:red;text-shadow: 2px 2px 5px grey;"id="result"></h2>
+
+       </form>
+
+     </div>
+     <div class="calculator">
+       <h1 id="mouse" onmouseover="myfunction4()" onmouseout="myfunction5()">.</h1>
+     <form style="border:none;">
+       <input id="txtarea"type="text" name="textbox" value=""><br>
+       <input type="button" name="" value="9" onclick="form.txtarea.value+=9">
+       <input type="button" name="" value="8"onclick="form.txtarea.value+=8">
+       <input type="button" name="" value="7"onclick="form.txtrea.value+=7">
+       <input type="button" name="" value="+"onclick="form.txtarea.value+='+'"><br>
+       <input type="button" name="" value="6"onclick="form.txtarea.value+=6">
+       <input type="button" name="" value="5"onclick="form.txtarea.value+=5">
+       <input type="button" name="" value="4"onclick="form.txtarea.value+=4">
+       <input type="button" name="" value="-"onclick="form.txtarea.value+='-'"><br>
+       <input type="button" name="" value="3"onclick="form.txtarea.value+=3">
+       <input type="button" name="" value="2"onclick="form.txtarea.value+=2">
+       <input type="button" name="" value="1"onclick="form.txtarea.value+=1">
+       <input type="button" name="" value="*"onclick="form.txtarea.value+='*'"><br>
+       <input type="button" name="" value="0"onclick="form.txtarea.value+=0">
+       <input type="button" name="" value="/"onclick="form.txtarea.value+='/'">
+       <input type="button" name="" value="="onclick="form.txtarea.value = eval(form.txtarea.value)">
+       <input type="reset" name="" value="C">
+
+
+     </form>
+
+     </div>
+     <h1>Onkeydown Event:-insert text in input box.</h1>
+    <textarea  id="textbox" name="text" rows="7" cols="60" onkeydown="myfunction6()"></textarea>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

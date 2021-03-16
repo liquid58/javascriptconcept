@@ -1,0 +1,45 @@
+body{
+  text-transform: capitalize;
+  font-family: monospace;
+
+}
+.btn{
+  width:200px;
+  height:50px;
+  text-transform: capitalize;
+  font-size: 16px;
+  border:1px solid red;
+  outline-color:green;
+}
+.aside2{
+padding:0 0 0 562px;
+}
+form{
+  width:400px;
+  padding:0 0 10px 20px;
+  border:1px solid black;
+  border:1px solid red;
+}
+form input[type="button"]{
+  width:40px;
+  height:40px;
+  padding:5px;
+  margin:5px;
+}
+form input [type="text"]{
+width:500px;
+}
+#txtarea{
+  width:207px;
+  margin-left:5px;
+  height:40px;
+  border:1px solid green;
+  font-size: 18px;
+}
+input[type="reset"] {
+    color: red;
+    width:40px;
+    height:40px;
+    padding:5px;
+    margin:5px;
+  }
